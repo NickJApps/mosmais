@@ -54,6 +54,22 @@
   font-weight: 600;
 }
 
+.address-phone {
+  justify-content: center;
+}
+
+.contact {
+  width: 80%;
+}
+
+address {
+  color: #fff;
+}
+
+.contact-info {
+  flex-direction: column;
+}
+
 @media (max-width: 994px) {
   .team-ul li p {
     flex-direction: column;
@@ -1141,12 +1157,13 @@ all and (min-device-pixel-ratio: 1.5) {
 .contact-info .contact a {
   display: block;
   color: inherit;
+  margin-left: 3px;
 }
 
 /* line 428, sass/libs/_components.scss */
 .contact-info p {
   font-size: 14px;
-  font-size: 0.875em;
+  font-size: 1em;
 }
 
 /* line 10, sass/libs/bootstrap-grid/_grid.scss */
@@ -2894,7 +2911,10 @@ all and (min-device-pixel-ratio: 1.5) {
 
 /* line 10, sass/layout/_content.scss */
 .content p {
-  margin-bottom: 40px;
+  margin-bottom: 4px;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
 }
 
 /* line 14, sass/layout/_content.scss */
