@@ -1,5 +1,10 @@
 /********* Custom *************/
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 .header-row {
   margin-top: 15px;
 }
@@ -13,15 +18,14 @@
 .row {
   display: flex;
   flex-wrap: wrap;
-  /* чтобы колонки переносились на маленьких экранах */
 }
 
-/* Каждая колонка тоже flex, чтобы .feature растягивалась */
+/* flex, чтобы .feature растягивалась */
 .row>[class*="col-"] {
   display: flex;
 }
 
-/* Растягиваем .feature.boxed на всю доступную высоту */
+/* Растягиваем .feature.boxed */
 .feature.boxed {
   flex: 1;
   display: flex;
@@ -80,6 +84,25 @@ address {
   .content-container{
     margin-top: 20px;
   }
+}
+
+/* To top button */
+
+.to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  background: #000000;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  display: none;
+  background: transparent;
+}
+
+.to-top.show {
+  display: block;
 }
 
 /*!

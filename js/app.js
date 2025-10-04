@@ -99,3 +99,19 @@
 	});
 
 })(jQuery, document, window);
+
+
+const btn = document.querySelector(".to-top");
+
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 300) {
+    btn.classList.add("show");
+  } else {
+    btn.classList.remove("show");
+  }
+});
+
+
+btn.addEventListener("click", () => {
+  document.getElementById("site-content").scrollIntoView({ behavior: "smooth" });
+});
