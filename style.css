@@ -76,6 +76,11 @@ address {
   }
 }
 
+@media (max-width: 991px) {
+  .content-container{
+    margin-top: 20px;
+  }
+}
 
 /*!
  * Project_Name: Themezy Lawyers Template
