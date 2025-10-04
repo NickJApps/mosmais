@@ -1146,7 +1146,7 @@ all and (min-device-pixel-ratio: 1.5) {
 }
 
 /* line 400, sass/libs/_components.scss */
-.contact-form #website {
+.contact-form #topic {
   background-image: url("images/icon-globe.png");
 }
 
@@ -1156,7 +1156,7 @@ all and (min--moz-device-pixel-ratio: 1.5),
 all and (min-device-pixel-ratio: 1.5) {
 
   /* line 400, sass/libs/_components.scss */
-  .contact-form #website {
+  .contact-form #topic {
     background-image: url("images/icon-globe@2x.png");
     background-size: 16px 16px;
   }
