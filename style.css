@@ -38,6 +38,7 @@ html {
 
 .service-row {
   margin-bottom: 20px;
+  justify-content: center;
 }
 
 .about-container {
@@ -74,6 +75,11 @@ address {
   flex-direction: column;
 }
 
+.team-ul {
+  text-align: center;
+  list-style-type: none;
+}
+
 @media (max-width: 994px) {
   .team-ul li p {
     flex-direction: column;
@@ -81,10 +87,11 @@ address {
 }
 
 @media (max-width: 991px) {
-  .content-container{
+  .content-container {
     margin-top: 20px;
   }
 }
+
 
 /* To top button */
 
@@ -103,6 +110,14 @@ address {
 
 .to-top.show {
   display: block;
+}
+
+.header-container {
+  background-image: url("images/bg-header-min.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 21px;
 }
 
 /*!
@@ -624,6 +639,8 @@ form input[type="submit"]:focus {
 /* line 79, sass/libs/_components.scss */
 .feature header {
   margin-bottom: 30px;
+  display: flex;
+  align-items: center;
 }
 
 /* line 82, sass/libs/_components.scss */
@@ -641,7 +658,7 @@ form input[type="submit"]:focus {
 /* line 88, sass/libs/_components.scss */
 .feature header .feature-title {
   font-size: 24px;
-  font-size: 1.2em;
+  font-size: 1.0em;
   color: white;
   margin-bottom: 0;
   line-height: 1;
