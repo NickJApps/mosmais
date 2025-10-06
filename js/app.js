@@ -119,6 +119,7 @@ btn.addEventListener("click", () => {
 
 /* Form valid */
 
+/*
 $(document).ready(function() {
     $("#message-form").on("submit", function(e) {
         let topic = $("#topic").val().trim();
@@ -133,3 +134,4 @@ $(document).ready(function() {
         }
     });
 });
+*/

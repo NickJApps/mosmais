@@ -275,11 +275,11 @@
 					</div>
 					<div class="row contact-info">
 						<div class="col-md-12 col-md-offset-0">
-							<form action="#" class="contact-form" id="message-form">
-								<input type="text" id="name" placeholder="Имя...">
-								<input type="text" id="email" placeholder="Email...">
-								<input type="text" id="topic" placeholder="Тема...">
-								<textarea name="" id="message" placeholder="Сообщение..."></textarea>
+							<form action="send.php" method="post" class="contact-form" id="message-form">
+								<input type="text" id="name" name="name" placeholder="Имя..." required>
+								<input type="text" id="email" name="email" placeholder="Email..." required>
+								<input type="text" id="topic" name="topic" placeholder="Тема..." required>
+								<textarea id="message" name="message" placeholder="Сообщение..." required></textarea>
 								<div class="text-right">
 									<input type="submit" value="Отправить">
 								</div>
