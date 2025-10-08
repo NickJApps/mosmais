@@ -4,8 +4,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
-
 .header-row {
   margin-top: 15px;
 }
@@ -66,10 +64,22 @@ html {
 
 .contact {
   width: 80%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 address {
   color: #fff;
+  font-size: 1.18em;
+}
+
+address span {
+  text-transform: uppercase;
+  color: #ac8074;
+  font-family: "Novecento Sans", "Open Sans", sans-serif;
+  font-weight: 600;
 }
 
 .contact-info {
@@ -81,8 +91,43 @@ address {
   list-style-type: none;
 }
 
+.content-container-address {
+  margin-bottom: 20px;
+}
+
+.content-container-address h3 {
+  text-align: center;
+}
+
+.content-container-address address {
+  text-align: center;
+}
+
+.content-container-address address p {
+  text-align: center;
+}
+
+.content-container p span {
+  color: #ac8074;
+}
+
+.content-container span {
+  text-transform: uppercase;
+  color: #ac8074;
+  font-family: "Novecento Sans", "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
 .content-container h3 {
   text-align: center;
+}
+
+.contact-info .contact a {
+  display: block;
+  color: inherit;
+  margin-left: 3px;
+  font-size: 1.2em;
 }
 
 @media (max-width: 994px) {
@@ -1201,13 +1246,6 @@ all and (min-device-pixel-ratio: 1.5) {
   font-family: "Novecento Sans", "Open Sans", sans-serif;
   display: block;
   margin-bottom: 10px;
-}
-
-/* line 423, sass/libs/_components.scss */
-.contact-info .contact a {
-  display: block;
-  color: inherit;
-  margin-left: 3px;
 }
 
 /* line 428, sass/libs/_components.scss */
@@ -3185,3 +3223,11 @@ all and (min-device-pixel-ratio: 1.5) {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+@media (max-width: 618px) {
+  .content-container p {
+    flex-direction: column;
+    align-items: center;
+  }
+}
