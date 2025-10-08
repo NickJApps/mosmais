@@ -5,6 +5,7 @@ html {
 }
 
 
+
 .header-row {
   margin-top: 15px;
 }
@@ -78,6 +79,10 @@ address {
 .team-ul {
   text-align: center;
   list-style-type: none;
+}
+
+.content-container h3 {
+  text-align: center;
 }
 
 @media (max-width: 994px) {
