@@ -3003,6 +3003,7 @@ all and (min-device-pixel-ratio: 1.5) {
   color: #fff;
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
 /* line 14, sass/layout/_content.scss */
@@ -3225,7 +3226,7 @@ all and (min-device-pixel-ratio: 1.5) {
 /*# sourceMappingURL=style.css.map */
 
 
-@media (max-width: 618px) {
+@media (max-width: 631px) {
   .content-container p {
     flex-direction: column;
     align-items: center;
