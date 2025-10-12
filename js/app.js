@@ -117,21 +117,3 @@ btn.addEventListener("click", () => {
   document.getElementById("site-content").scrollIntoView({ behavior: "smooth" });
 });
 
-/* Form valid */
-
-/*
-$(document).ready(function() {
-    $("#message-form").on("submit", function(e) {
-        let topic = $("#topic").val().trim();
-        let email = $("#email").val().trim();
-        let name = $("#name").val().trim();
-        let message = $("#message").val().trim();
-
-        if (!topic || !email || !message) {
-            e.preventDefault();
-            alert("Пожалуйста, заполните все поля!");
-            return false;
-        }
-    });
-});
-*/
